@@ -13,4 +13,6 @@ jobs:
       - run: quarto render Down_and_out_option.ipynb --to pdf --execute
       - uses: actions/upload-artifact@v7
         with:
-          path: Down_and_out_option.pdf 
+          path: |
+            Down_and_out_option.pdf
+            animation.gif
