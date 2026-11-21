@@ -15,4 +15,5 @@ jobs:
         with:
           path: |
             Down_and_out_option.pdf
-            animation.gif
+            standard_animation.gif
+            left_advection_animation.gif
